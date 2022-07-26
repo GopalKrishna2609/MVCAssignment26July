@@ -14,6 +14,10 @@ namespace WebApplicationMVC.Controllers
         {
             return View();
         }
+        public ActionResult Congratulations()
+        {
+            return View();
+        }
         // GET: EmployeeController1/Details/5
         public ActionResult Details(int id)
         {
